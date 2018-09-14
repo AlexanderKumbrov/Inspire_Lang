@@ -36,13 +36,13 @@ public class SplashScreen extends AppCompatActivity {
             //Exception message
         }
 
-        new Handler().postDelayed(new Runnable() { //New methon for run SplashScreen
+        new Handler().postDelayed(new Runnable() { //New method for run SplashScreen
             @Override
             public void run() {
                 SplashScreen.this.startActivity(new Intent(SplashScreen.this, MainActivity.class)); //Start activity SplashScreen
                 SplashScreen.this.finish(); //Stop activity SplashScreen and run MainActivity
             }
-        }, 3000);
+        }, 2480);//Milliseconds
 
     }
 }
